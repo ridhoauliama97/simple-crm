@@ -11,7 +11,7 @@ class Login extends BasePage
         parent::mount();
 
         $this->form->fill([
-            'email' => 'admin@tinycrm.com',
+            'email' => 'admin@simplecrm.com',
             'password' => 'password',
             'remember' => true,
         ]);

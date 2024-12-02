@@ -1,8 +1,6 @@
-# Tiny crm
+# Simple crm
 
-![Tiny CRM dashboard screenshot](screenshots/Dashboard%20Screenshot.png "Tiny CRM dashboard screenshot")
-
-[![Tests](https://github.com/frikishaan/tiny-crm/actions/workflows/run-tests.yml/badge.svg?branch=main)](https://github.com/frikishaan/tiny-crm/actions/workflows/run-tests.yml)
+![Simple CRM dashboard screenshot](screenshots/Dashboard%20Screenshot.png "Simple CRM dashboard screenshot")
 
 This is a small and Open-source CRM application created using the [Filament PHP](https://filamentphp.com/).
 
@@ -27,12 +25,12 @@ npm run build # to build the frontend assets
 3. Replace the database credentials in the `.env` file.
 
 ```
-DB_CONNECTION=pgsql
+DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
-DB_PORT=5432
-DB_DATABASE=tiny_crm
-DB_USERNAME=postgres
-DB_PASSWORD=password
+DB_PORT=3306
+DB_DATABASE=crm_app
+DB_USERNAME=root
+DB_PASSWORD=
 ```
 
 4. Now run the following command to create the required tables in database -
